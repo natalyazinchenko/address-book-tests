@@ -49,8 +49,6 @@ public class TestBase {
     }
 
     protected void groupNameTyping() {
-        driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='test12'])[4]/following::input[1]")).click();
-        submitChanges("group_name");
         driver.findElement(By.name("group_name")).clear();
         driver.findElement(By.name("group_name")).sendKeys("seleniumTestGroupCreate");
     }
@@ -147,5 +145,9 @@ public class TestBase {
     protected void selectAndDeleteGroup() {
         driver.findElement(By.name("selected[]")).click();
         driver.findElement(By.name("delete")).click();
+    }
+
+    protected void clickNewGroupButton() {
+        driver.findElement(By.name("new")).click();
     }
 }
