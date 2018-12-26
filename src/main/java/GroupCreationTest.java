@@ -4,11 +4,11 @@ public class GroupCreationTest extends TestBase {
 
     @Test
     public void testGroupCreation() throws Exception {
-        selectGroups();
-        clickNewGroupButton();
-        groupNameTyping();
-        submitChanges("submit");
-        goBackToTheGroupsPage();
+        app.selectGroups();
+        app.clickNewGroupButton();
+        app.groupNameTyping();
+        app.submitChanges("submit");
+        app.goBackToTheGroupsPage();
     }
 
 }

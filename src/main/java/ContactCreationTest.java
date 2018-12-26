@@ -4,16 +4,16 @@ public class ContactCreationTest extends TestBase {
 
     @Test
     public void testContactCreation() throws Exception {
-        addNewContact();
-        typeFIrstName();
-        typeMiddleName();
-        typeLastName();
-        typeNickname();
-        typeTitle();
-        typeCompany();
-        typeAddress();
-        typeEmail();
-        submitAndGoToHomePage();
+        app.addNewContact();
+        app.typeFIrstName();
+        app.typeMiddleName();
+        app.typeLastName();
+        app.typeNickname();
+        app.typeTitle();
+        app.typeCompany();
+        app.typeAddress();
+        app.typeEmail();
+        app.submitAndGoToHomePage();
     }
 
 }
