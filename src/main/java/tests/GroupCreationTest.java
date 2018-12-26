@@ -6,10 +6,10 @@ public class GroupCreationTest extends TestBase {
 
     @Test
     public void testGroupCreation() throws Exception {
-        app.selectGroups();
-        app.clickNewGroupButton();
-        app.groupNameTyping();
-        app.submitChanges("submit");
+        app.getGroupHelper().selectGroups();
+        app.getGroupHelper().clickNewGroupButton();
+        app.getGroupHelper().groupNameTyping();
+        app.getGroupHelper().submitChanges("submit");
         app.goBackToTheGroupsPage();
     }
 

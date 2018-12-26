@@ -7,6 +7,7 @@ import java.util.concurrent.TimeUnit;
 
 public class ApplicationManager {
     public WebDriver driver;
+    private GroupHelper groupHelper;
     public String baseUrl;
     public boolean acceptNextAlert = true;
     public StringBuffer verificationErrors = new StringBuffer();
@@ -17,6 +18,7 @@ public class ApplicationManager {
         baseUrl = "https://www.katalon.com/";
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
         driver.get("http://localhost/addressbook/");
+        groupHelper = new GroupHelper(driver);
         login("admin", "secret");
     }
 
@@ -33,19 +35,6 @@ public class ApplicationManager {
     }
 
     public void goBackToTheGroupsPage() {
-        driver.findElement(By.linkText("groups")).click();
-    }
-
-    public void submitChanges(String submit) {
-        driver.findElement(By.name(submit)).click();
-    }
-
-    public void groupNameTyping() {
-        driver.findElement(By.name("group_name")).clear();
-        driver.findElement(By.name("group_name")).sendKeys("seleniumTestGroupCreate");
-    }
-
-    public void selectGroups() {
         driver.findElement(By.linkText("groups")).click();
     }
 
@@ -134,12 +123,7 @@ public class ApplicationManager {
         driver.findElement(By.linkText("add new")).click();
     }
 
-    public void selectAndDeleteGroup() {
-        driver.findElement(By.name("selected[]")).click();
-        driver.findElement(By.name("delete")).click();
-    }
-
-    public void clickNewGroupButton() {
-        driver.findElement(By.name("new")).click();
+    public GroupHelper getGroupHelper() {
+        return groupHelper;
     }
 }
