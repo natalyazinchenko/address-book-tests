@@ -24,9 +24,13 @@ public class deletionGroupTest {
     public void testDeletionGroup() throws Exception {
         driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='Password:'])[1]/following::input[2]")).click();
         driver.findElement(By.linkText("groups")).click();
+        selectAndDeleteGroup();
+        driver.findElement(By.linkText("group page")).click();
+    }
+
+    private void selectAndDeleteGroup() {
         driver.findElement(By.name("selected[]")).click();
         driver.findElement(By.name("delete")).click();
-        driver.findElement(By.linkText("group page")).click();
     }
 
     private void login(String username, String password) {
