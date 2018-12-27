@@ -1,5 +1,6 @@
 package tests;
 
+import org.openqa.selenium.WebDriver;
 import org.testng.annotations.Test;
 
 public class GroupCreationTest extends TestBase {
@@ -10,7 +11,7 @@ public class GroupCreationTest extends TestBase {
         app.getGroupHelper().clickNewGroupButton();
         app.getGroupHelper().groupNameTyping();
         app.getGroupHelper().submitChanges("submit");
-        app.goBackToTheGroupsPage();
+        app.getNavigationHelper().goBackToTheGroupsPage();
     }
 
 }

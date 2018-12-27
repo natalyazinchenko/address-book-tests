@@ -7,7 +7,8 @@ import java.util.concurrent.TimeUnit;
 
 public class ApplicationManager {
     public WebDriver driver;
-    private GroupHelper groupHelper;
+    public NavigationHelper navigationHelper;
+    public GroupHelper groupHelper;
     public String baseUrl;
     public boolean acceptNextAlert = true;
     public StringBuffer verificationErrors = new StringBuffer();
@@ -19,6 +20,7 @@ public class ApplicationManager {
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
         driver.get("http://localhost/addressbook/");
         groupHelper = new GroupHelper(driver);
+        navigationHelper = new NavigationHelper(driver);
         login("admin", "secret");
     }
 
@@ -32,10 +34,6 @@ public class ApplicationManager {
 
     public void stop() {
         driver.quit();
-    }
-
-    public void goBackToTheGroupsPage() {
-        driver.findElement(By.linkText("groups")).click();
     }
 
     public boolean isElementPresent(By by) {
@@ -125,5 +123,9 @@ public class ApplicationManager {
 
     public GroupHelper getGroupHelper() {
         return groupHelper;
+    }
+
+    public NavigationHelper getNavigationHelper() {
+        return navigationHelper;
     }
 }
