@@ -3,32 +3,30 @@ package appmanager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-public class GroupHelper {
-    private WebDriver driver;
+public class GroupHelper extends HelperBase {
 
     public GroupHelper(WebDriver driver) {
-        this.driver = driver;
+        super(driver);
     }
 
     public void submitChanges(String submit) {
-        driver.findElement(By.name(submit)).click();
+        click(By.name(submit));
     }
 
     public void groupNameTyping() {
-        driver.findElement(By.name("group_name")).clear();
-        driver.findElement(By.name("group_name")).sendKeys("seleniumTestGroupCreate");
+        type(By.name("group_name"), "seleniumTestGroupCreate");
     }
 
     public void selectGroups() {
-        driver.findElement(By.linkText("groups")).click();
+        click(By.linkText("groups"));
     }
 
     public void selectAndDeleteGroup() {
-        driver.findElement(By.name("selected[]")).click();
-        driver.findElement(By.name("delete")).click();
+        click(By.name("selected[]"));
+        click(By.name("delete"));
     }
 
     public void clickNewGroupButton() {
-        driver.findElement(By.name("new")).click();
+        click(By.name("new"));
     }
 }
