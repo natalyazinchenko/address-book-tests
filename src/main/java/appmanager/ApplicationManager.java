@@ -8,6 +8,7 @@ import java.util.concurrent.TimeUnit;
 public class ApplicationManager {
     public WebDriver driver;
     public NavigationHelper navigationHelper;
+    public SessionHelper sessionHelper;
     public GroupHelper groupHelper;
     public String baseUrl;
     public boolean acceptNextAlert = true;
@@ -20,16 +21,9 @@ public class ApplicationManager {
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
         driver.get("http://localhost/addressbook/");
         groupHelper = new GroupHelper(driver);
+        sessionHelper = new SessionHelper(driver);
         navigationHelper = new NavigationHelper(driver);
-        login("admin", "secret");
-    }
-
-    public void login(String username, String password) {
-        driver.findElement(By.name("user")).clear();
-        driver.findElement(By.name("user")).sendKeys(username);
-        driver.findElement(By.name("pass")).clear();
-        driver.findElement(By.name("pass")).sendKeys(password);
-        driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='Password:'])[1]/following::input[2]")).click();
+        sessionHelper.login("admin","secret");
     }
 
     public void stop() {
