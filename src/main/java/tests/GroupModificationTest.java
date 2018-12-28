@@ -2,7 +2,7 @@ package tests;
 
 import org.testng.annotations.Test;
 
-public class ModificationGroupTest extends TestBase {
+public class GroupModificationTest extends TestBase {
 
     @Test
     public void testGroupModification(){
