@@ -29,4 +29,12 @@ public class GroupHelper extends HelperBase {
     public void clickNewGroupButton() {
         click(By.name("new"));
     }
+
+    public void initGroupModification() {
+        click(By.name("edit"));
+    }
+
+    public void updateGroupModification() {
+        click(By.name("update"));
+    }
 }
