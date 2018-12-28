@@ -14,7 +14,7 @@ public class GroupHelper extends HelperBase {
     }
 
     public void groupNameTyping() {
-        type(By.name("group_name"), "seleniumTestGroupCreate");
+        type(By.name("group_name"), "seleniumTestGroupCreateorChange");
     }
 
     public void selectGroups() {
@@ -36,5 +36,12 @@ public class GroupHelper extends HelperBase {
 
     public void updateGroupModification() {
         click(By.name("update"));
+    }
+
+    public void makeChangesToGroup() {
+        click(By.name("group_header"));
+        type(By.name("group_header"), "testChangesIntoGroupHeader");
+        click(By.name("group_footer"));
+        type(By.name("group_footer"),"changes into footer");
     }
 }
