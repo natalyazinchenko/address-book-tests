@@ -53,4 +53,21 @@ public class ContactHelper extends HelperBase{
     public void addNewContact() {
         driver.findElement(By.linkText("add new")).click();
     }
+
+    public void editContact() {
+        click(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='seleniumtests@mail.ru'])[7]/following::img[2]"));
+    }
+
+    public void deleteContact(){
+        click(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='Notes:'])[1]/following::input[3]"));
+    }
+
+    public void modifyContactInfo() {
+        type(By.name("firstname"),"SeleniumModify");
+        type(By.name("middlename"),"SeleniumModifyMiddleName");
+    }
+
+    public void updateContactInfo() {
+        click(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='Notes:'])[1]/following::input[1]"));
+    }
 }

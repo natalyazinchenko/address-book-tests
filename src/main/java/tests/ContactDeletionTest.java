@@ -1,4 +1,13 @@
 package tests;
 
-public class ContactDeletionTest {
+import org.testng.annotations.Test;
+
+public class ContactDeletionTest extends TestBase {
+
+    @Test
+    public void testContactDeletion(){
+        app.getContactHelper().editContact();
+        app.getContactHelper().deleteContact();
+
+    }
 }
