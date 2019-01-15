@@ -5,6 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f029bb72-ae0f-4a68-a038-7aa6f27b4032" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/appmanager/ApplicationManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/appmanager/ApplicationManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/tests/ContactModificationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/tests/ContactModificationTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/appmanager/ApplicationManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/appmanager/ApplicationManager.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -55,11 +61,43 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="ContactCreationTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/tests/ContactCreationTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GroupHelper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/appmanager/GroupHelper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="544">
+              <caret line="44" column="32" selection-start-line="44" selection-start-column="32" selection-end-line="44" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#179#180#0" expanded="true" />
+                <element signature="e#208#209#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ContactDeletionTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/tests/ContactDeletionTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="ApplicationManager.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/appmanager/ApplicationManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="27" column="99" selection-start-line="27" selection-start-column="99" selection-end-line="27" selection-end-column="99" />
+            <state relative-caret-position="235">
+              <caret line="21" column="39" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1530#1531#0" expanded="true" />
@@ -79,7 +117,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/tests/TestBase.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
-              <caret line="19" column="13" lean-forward="true" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -95,8 +133,8 @@
       <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="20" selection-start-column="20" selection-end-column="20" />
+            <state relative-caret-position="221">
+              <caret line="13" column="59" selection-start-line="13" selection-start-column="59" selection-end-line="13" selection-end-column="59" />
             </state>
           </provider>
         </entry>
@@ -297,9 +335,9 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="4637460850804" />
+        <entry key="$PROJECT_DIR$" value="4639182882816" />
         <entry key="$PROJECT_DIR$/.gradle" value="0" />
-        <entry key="$PROJECT_DIR$/build.gradle" value="2002993816" />
+        <entry key="$PROJECT_DIR$/build.gradle" value="3966671512" />
         <entry key="$PROJECT_DIR$/settings.gradle" value="838754274" />
       </map>
     </option>
@@ -418,7 +456,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/java/contactCreationTests.java" />
         <option value="$PROJECT_DIR$/src/main/java/contactCreationTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/deletionGroupTest.java" />
@@ -443,6 +480,7 @@
         <option value="$PROJECT_DIR$/src/main/java/appmanager/EquotationClass.java" />
         <option value="$PROJECT_DIR$/src/main/java/appmanager/Equotation.java" />
         <option value="$PROJECT_DIR$/src/main/java/tests/EquotationTest.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/java/appmanager/ApplicationManager.java" />
       </list>
     </option>
@@ -551,7 +589,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.ContactCreationTest">
+  <component name="RunManager" selected="TestNG.GroupCreationTest">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -584,35 +622,6 @@
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="tests" />
       <option name="MAIN_CLASS_NAME" value="tests.ContactCreationTest" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <properties />
-      <listeners />
-    </configuration>
-    <configuration name="ContactDeletionTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.ContactDeletionTest" />
       <option name="METHOD_NAME" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="CLASS" />
@@ -716,6 +725,35 @@
       <properties />
       <listeners />
     </configuration>
+    <configuration name="GroupCreationTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.GroupCreationTest" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -739,19 +777,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="TestNG.ContactDeletionTest" />
       <item itemvalue="TestNG.ContactModificationTest" />
       <item itemvalue="TestNG.EquotationTest" />
       <item itemvalue="TestNG.EquotationTest.test2" />
       <item itemvalue="TestNG.ContactCreationTest" />
+      <item itemvalue="TestNG.GroupCreationTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.GroupCreationTest" />
         <item itemvalue="TestNG.ContactCreationTest" />
         <item itemvalue="TestNG.EquotationTest" />
         <item itemvalue="TestNG.EquotationTest.test2" />
         <item itemvalue="TestNG.ContactModificationTest" />
-        <item itemvalue="TestNG.ContactDeletionTest" />
       </list>
     </recent_temporary>
   </component>
@@ -769,35 +807,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="UntitledTestCase - 2019.01.03 at 17h 31m 29s.xml">
-      <configuration name="UntitledTestCase" configurationId="TestNG" />
+    <history-entry file="ContactCreationTest - 2019.01.15 at 10h 46m 01s.xml">
+      <configuration name="ContactCreationTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="UntitledTestCase - 2019.01.03 at 17h 37m 27s.xml">
-      <configuration name="UntitledTestCase" configurationId="TestNG" />
+    <history-entry file="ContactCreationTest - 2019.01.15 at 10h 46m 24s.xml">
+      <configuration name="ContactCreationTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="UntitledTestCase - 2019.01.03 at 17h 40m 33s.xml">
-      <configuration name="UntitledTestCase" configurationId="TestNG" />
+    <history-entry file="ContactCreationTest - 2019.01.15 at 10h 46m 56s.xml">
+      <configuration name="ContactCreationTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="UntitledTestCase - 2019.01.03 at 17h 42m 46s.xml">
-      <configuration name="UntitledTestCase" configurationId="TestNG" />
+    <history-entry file="ContactCreationTest - 2019.01.15 at 10h 47m 09s.xml">
+      <configuration name="ContactCreationTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ContactDeletionTest - 2019.01.03 at 17h 51m 34s.xml">
-      <configuration name="ContactDeletionTest" configurationId="TestNG" />
+    <history-entry file="ContactCreationTest - 2019.01.15 at 10h 56m 07s.xml">
+      <configuration name="ContactCreationTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ContactDeletionTest - 2019.01.03 at 17h 56m 14s.xml">
-      <configuration name="ContactDeletionTest" configurationId="TestNG" />
+    <history-entry file="ContactCreationTest - 2019.01.15 at 10h 56m 31s.xml">
+      <configuration name="ContactCreationTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ContactModificationTest - 2019.01.03 at 18h 01m 40s.xml">
-      <configuration name="ContactModificationTest" configurationId="TestNG" />
+    <history-entry file="ContactCreationTest - 2019.01.15 at 10h 56m 54s.xml">
+      <configuration name="ContactCreationTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ContactModificationTest - 2019.01.03 at 18h 05m 25s.xml">
-      <configuration name="ContactModificationTest" configurationId="TestNG" />
+    <history-entry file="ContactCreationTest - 2019.01.15 at 10h 57m 59s.xml">
+      <configuration name="ContactCreationTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="ContactModificationTest - 2019.01.03 at 18h 07m 15s.xml">
-      <configuration name="ContactModificationTest" configurationId="TestNG" />
+    <history-entry file="GroupCreationTest - 2019.01.15 at 10h 58m 26s.xml">
+      <configuration name="GroupCreationTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="EquotationTest - 2019.01.08 at 18h 31m 40s.xml">
-      <configuration name="EquotationTest" configurationId="TestNG" />
+    <history-entry file="GroupCreationTest - 2019.01.15 at 10h 58m 50s.xml">
+      <configuration name="GroupCreationTest" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -816,14 +854,14 @@
       <window_info id="UI Designer" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39977476" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" sideWeight="0.49938875" visible="true" weight="0.2849099" />
+      <window_info anchor="bottom" id="Messages" sideWeight="0.49938875" weight="0.2849099" />
       <window_info anchor="right" id="Palette&#9;" />
       <window_info id="Image Layers" />
       <window_info anchor="right" id="Capture Analysis" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.38002595" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3795045" />
       <window_info anchor="bottom" id="Terminal" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="right" id="ReST Console" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32995495" />
       <window_info anchor="right" id="Gradle" weight="0.3294621" />
@@ -950,18 +988,6 @@
             <element signature="imports" expanded="true" />
             <element signature="e#179#180#0" expanded="true" />
             <element signature="e#208#209#0" expanded="true" />
-            <element signature="e#274#275#0" expanded="true" />
-            <element signature="e#333#334#0" expanded="true" />
-            <element signature="e#370#371#0" expanded="true" />
-            <element signature="e#392#393#0" expanded="true" />
-            <element signature="e#627#628#0" expanded="true" />
-            <element signature="e#650#651#0" expanded="true" />
-            <element signature="e#824#825#0" expanded="true" />
-            <element signature="e#882#883#0" expanded="true" />
-            <element signature="e#720#721#0" expanded="true" />
-            <element signature="e#742#743#0" expanded="true" />
-            <element signature="e#803#804#0" expanded="true" />
-            <element signature="e#825#826#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1176,13 +1202,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="20" selection-start-column="20" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/tests/GroupCreationTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -1193,7 +1212,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/tests/TestBase.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
-          <caret line="19" column="13" lean-forward="true" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1207,30 +1226,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/appmanager/GroupHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="547">
-          <caret line="44" column="32" lean-forward="true" selection-start-line="44" selection-start-column="32" selection-end-line="44" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#179#180#0" expanded="true" />
-            <element signature="e#208#209#0" expanded="true" />
-            <element signature="e#274#275#0" expanded="true" />
-            <element signature="e#333#334#0" expanded="true" />
-            <element signature="e#370#371#0" expanded="true" />
-            <element signature="e#392#393#0" expanded="true" />
-            <element signature="e#627#628#0" expanded="true" />
-            <element signature="e#650#651#0" expanded="true" />
-            <element signature="e#824#825#0" expanded="true" />
-            <element signature="e#882#883#0" expanded="true" />
-            <element signature="e#720#721#0" expanded="true" />
-            <element signature="e#742#743#0" expanded="true" />
-            <element signature="e#803#804#0" expanded="true" />
-            <element signature="e#825#826#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/tests/GroupModificationTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -1239,43 +1234,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/tests/UntitledTestCase.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/appmanager/ApplicationManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="27" column="99" selection-start-line="27" selection-start-column="99" selection-end-line="27" selection-end-column="99" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1530#1531#0" expanded="true" />
-            <element signature="e#1559#1560#0" expanded="true" />
-            <element signature="e#2360#2361#0" expanded="true" />
-            <element signature="e#2394#2395#0" expanded="true" />
-            <element signature="e#2447#2448#0" expanded="true" />
-            <element signature="e#2486#2487#0" expanded="true" />
-            <element signature="e#2533#2534#0" expanded="true" />
-            <element signature="e#2569#2570#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tests/ContactDeletionTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="47" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/appmanager/SessionHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#182#183#0" expanded="true" />
-            <element signature="e#211#212#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/appmanager/NavigationHelper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -1290,13 +1248,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tests/ContactCreationTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -1333,6 +1284,69 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="22" column="45" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="59" selection-start-line="13" selection-start-column="59" selection-end-line="13" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tests/ContactDeletionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tests/ContactCreationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/appmanager/SessionHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#182#183#0" expanded="true" />
+            <element signature="e#211#212#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/appmanager/GroupHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="44" column="32" selection-start-line="44" selection-start-column="32" selection-end-line="44" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#179#180#0" expanded="true" />
+            <element signature="e#208#209#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/appmanager/ApplicationManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="21" column="39" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1530#1531#0" expanded="true" />
+            <element signature="e#1559#1560#0" expanded="true" />
+            <element signature="e#2360#2361#0" expanded="true" />
+            <element signature="e#2394#2395#0" expanded="true" />
+            <element signature="e#2447#2448#0" expanded="true" />
+            <element signature="e#2486#2487#0" expanded="true" />
+            <element signature="e#2533#2534#0" expanded="true" />
+            <element signature="e#2569#2570#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -19,7 +19,7 @@ public class ApplicationManager {
     public StringBuffer verificationErrors = new StringBuffer();
 
     public void init() {
-        String browser = BrowserType.FIREFOX;
+        String browser = BrowserType.IE;
         if (browser == BrowserType.CHROME){
             System.setProperty("webdriver.chrome.driver","C:\\Users\\nzinchenko\\Documents\\chromedriver.exe");
             driver = new ChromeDriver();
@@ -30,7 +30,7 @@ public class ApplicationManager {
             System.setProperty("webdriver.edge.driver","C:\\Users\\nzinchenko\\Documents\\MicrosoftWebDriver.exe");
             driver = new EdgeDriver();
         } else if (browser == BrowserType.FIREFOX){
-            System.setProperty("webdriver.firefox.driver","C:\\Users\\nzinchenko\\Documents\\geckodriver.exe");
+            System.setProperty("webdriver.gecko.driver","C:\\Users\\nzinchenko\\Documents\\geckodriver.exe");
             driver = new FirefoxDriver();
         }
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);

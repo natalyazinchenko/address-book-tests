@@ -11,7 +11,7 @@ repositories {
 
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.12'
-    compile 'org.seleniumhq.selenium:selenium-java:2.53.1'
+    compile 'org.seleniumhq.selenium:selenium-java:3.141.59'
     compile 'org.testng:testng:7.0.0-beta1'
     compile 'org.openqa.selenium:selenium-rc:jar:1.0-20081010.060147'
     compile 'org.seleniumhq.selenium:selenium-firefox-driver:jar:3.141.59'
