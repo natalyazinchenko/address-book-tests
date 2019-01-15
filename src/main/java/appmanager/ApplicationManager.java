@@ -2,23 +2,37 @@ package appmanager;
 
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.openqa.selenium.remote.BrowserType;
 
 import java.util.concurrent.TimeUnit;
 
 public class ApplicationManager {
     public ContactHelper contactHelper;
-    public WebDriver driver;
+    WebDriver driver;
     public NavigationHelper navigationHelper;
     public SessionHelper sessionHelper;
     public GroupHelper groupHelper;
-    public String baseUrl;
     public boolean acceptNextAlert = true;
     public StringBuffer verificationErrors = new StringBuffer();
 
     public void init() {
-        System.setProperty("webdriver.chrome.driver","C:\\Users\\nzinchenko\\Documents\\chromedriver.exe");
-        driver = new ChromeDriver();
-        baseUrl = "https://www.katalon.com/";
+        String browser = BrowserType.FIREFOX;
+        if (browser == BrowserType.CHROME){
+            System.setProperty("webdriver.chrome.driver","C:\\Users\\nzinchenko\\Documents\\chromedriver.exe");
+            driver = new ChromeDriver();
+        } else if (browser == BrowserType.IE){
+            System.setProperty("webdriver.ie.driver","C:\\Users\\nzinchenko\\Documents\\IEDriverServer.exe");
+            driver = new InternetExplorerDriver();
+        } else if (browser == BrowserType.EDGE){
+            System.setProperty("webdriver.edge.driver","C:\\Users\\nzinchenko\\Documents\\MicrosoftWebDriver.exe");
+            driver = new EdgeDriver();
+        } else if (browser == BrowserType.FIREFOX){
+            System.setProperty("webdriver.firefox.driver","C:\\Users\\nzinchenko\\Documents\\geckodriver.exe");
+            driver = new FirefoxDriver();
+        }
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
         driver.get("http://localhost/addressbook/");
         groupHelper = new GroupHelper(driver);
