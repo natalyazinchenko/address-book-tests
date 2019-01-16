@@ -1,6 +1,7 @@
 package tests;
 
 import appmanager.ApplicationManager;
+import org.openqa.selenium.remote.BrowserType;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 
@@ -8,7 +9,7 @@ import static org.testng.Assert.fail;
 
 public class TestBase {
 
-    public final ApplicationManager app = new ApplicationManager();
+    public final ApplicationManager app = new ApplicationManager(BrowserType.CHROME);
 
     @BeforeClass(alwaysRun = true)
     public void setUp() throws Exception {

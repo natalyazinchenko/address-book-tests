@@ -17,19 +17,23 @@ public class ApplicationManager {
     public GroupHelper groupHelper;
     public boolean acceptNextAlert = true;
     public StringBuffer verificationErrors = new StringBuffer();
+    private String browser;
+
+    public ApplicationManager(String browser) {
+        this.browser = browser;
+    }
 
     public void init() {
-        String browser = BrowserType.IE;
-        if (browser == BrowserType.CHROME){
+        if (browser.equals(BrowserType.CHROME)){
             System.setProperty("webdriver.chrome.driver","C:\\Users\\nzinchenko\\Documents\\chromedriver.exe");
             driver = new ChromeDriver();
-        } else if (browser == BrowserType.IE){
+        } else if (browser.equals(BrowserType.IE)){
             System.setProperty("webdriver.ie.driver","C:\\Users\\nzinchenko\\Documents\\IEDriverServer.exe");
             driver = new InternetExplorerDriver();
-        } else if (browser == BrowserType.EDGE){
+        } else if (browser.equals(BrowserType.EDGE)){
             System.setProperty("webdriver.edge.driver","C:\\Users\\nzinchenko\\Documents\\MicrosoftWebDriver.exe");
             driver = new EdgeDriver();
-        } else if (browser == BrowserType.FIREFOX){
+        } else if (browser.equals(BrowserType.FIREFOX)){
             System.setProperty("webdriver.gecko.driver","C:\\Users\\nzinchenko\\Documents\\geckodriver.exe");
             driver = new FirefoxDriver();
         }
