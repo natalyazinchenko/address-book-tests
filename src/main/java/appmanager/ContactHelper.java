@@ -1,6 +1,7 @@
 package appmanager;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 
 public class ContactHelper extends HelperBase{
@@ -55,7 +56,7 @@ public class ContactHelper extends HelperBase{
     }
 
     public void editContact() {
-        click(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='seleniumtests@mail.ru'])[7]/following::img[2]"));
+        click(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='seleniumtests@mail.ru'])[1]/following::img[2]"));
     }
 
     public void deleteContact(){

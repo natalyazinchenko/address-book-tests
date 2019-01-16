@@ -25,4 +25,14 @@ public class TestBase {
         }
     }
 
+    protected void fillContactInfo() {
+        app.getContactHelper().typeFIrstName();
+        app.getContactHelper().typeMiddleName();
+        app.getContactHelper().typeLastName();
+        app.getContactHelper().typeNickname();
+        app.getContactHelper().typeTitle();
+        app.getContactHelper().typeCompany();
+        app.getContactHelper().typeAddress();
+        app.getContactHelper().typeEmail();
+    }
 }
