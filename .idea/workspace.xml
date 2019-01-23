@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f029bb72-ae0f-4a68-a038-7aa6f27b4032" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/appmanager/Primes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/appmanager/Primes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tests/PrimesTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tests/PrimesTests.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -50,23 +51,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Primes.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Primes.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/appmanager/Primes.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="221">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+              <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PrimesTests.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="PrimesTests.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/tests/PrimesTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+            <state relative-caret-position="357">
+              <caret line="21" column="49" lean-forward="true" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#145#146#0" expanded="true" />
                 <element signature="e#180#181#0" expanded="true" />
+                <element signature="e#270#271#0" expanded="true" />
+                <element signature="e#335#336#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -763,15 +767,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ContactDeletionTest - 2019.01.16 at 14h 41m 23s.xml">
-      <configuration name="ContactDeletionTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="GroupDeletionTest - 2019.01.16 at 14h 45m 42s.xml">
-      <configuration name="GroupDeletionTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="GroupModificationTest - 2019.01.16 at 14h 48m 37s.xml">
-      <configuration name="GroupModificationTest" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="GroupDeletionTest - 2019.01.16 at 14h 49m 04s.xml">
       <configuration name="GroupDeletionTest" configurationId="TestNG" />
     </history-entry>
@@ -793,6 +788,15 @@
     <history-entry file="PrimesTests - 2019.01.23 at 11h 49m 53s.xml">
       <configuration name="PrimesTests" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="PrimesTests - 2019.01.23 at 14h 01m 31s.xml">
+      <configuration name="PrimesTests" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="PrimesTests - 2019.01.23 at 14h 02m 11s.xml">
+      <configuration name="PrimesTests" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="PrimesTests - 2019.01.23 at 14h 10m 32s.xml">
+      <configuration name="PrimesTests" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
@@ -808,14 +812,14 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39977476" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39977476" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Messages" sideWeight="0.49938875" weight="0.2849099" />
       <window_info anchor="right" id="Palette&#9;" />
       <window_info id="Image Layers" />
       <window_info anchor="right" id="Capture Analysis" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3795045" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3795045" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="right" id="ReST Console" />
@@ -1285,21 +1289,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tests/PrimesTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#180#181#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/appmanager/Primes.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tests/PrimesTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="49" lean-forward="true" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#145#146#0" expanded="true" />
+            <element signature="e#180#181#0" expanded="true" />
+            <element signature="e#270#271#0" expanded="true" />
+            <element signature="e#335#336#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
