@@ -1,12 +1,14 @@
 package tests;
 
 import org.openqa.selenium.By;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class GroupModificationTest extends TestBase {
 
     @Test
     public void testGroupModification(){
+        int before = app.getGroupHelper().getGroupCount();
         if (!app.getGroupHelper().isElementPresent(By.name("selected[]"))){
             app.getGroupHelper().selectGroups();
             app.getGroupHelper().clickNewGroupButton();
@@ -19,5 +21,7 @@ public class GroupModificationTest extends TestBase {
         app.getGroupHelper().groupNameTyping();
         app.getGroupHelper().makeChangesToGroup();
         app.getGroupHelper().updateGroupModification();
+        int after = app.getGroupHelper().getGroupCount();
+        Assert.assertEquals(after, before, 0.001);
     }
 }

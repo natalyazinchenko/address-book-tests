@@ -44,4 +44,8 @@ public class GroupHelper extends HelperBase {
         click(By.name("group_footer"));
         type(By.name("group_footer"),"changes into footer");
     }
+
+    public int getGroupCount() {
+        return driver.findElements(By.name("selected[]")).size();
+    }
 }
