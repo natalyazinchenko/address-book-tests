@@ -21,4 +21,14 @@ public class PrimesTests {
         long n = Integer.MAX_VALUE;
         Assert.assertTrue(Primes.isPrimeLong(n));
     }
+
+    @Test
+    public void testFastPrimes(){
+        Assert.assertTrue(Primes.isPrimeFast(Integer.MAX_VALUE));
+    }
+
+    @Test
+    public void testSqrtPrimes(){
+        Assert.assertTrue(Primes.isPrimeSqrt(Integer.MAX_VALUE));
+    }
 }
