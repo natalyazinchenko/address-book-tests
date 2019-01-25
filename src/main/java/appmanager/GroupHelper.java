@@ -21,8 +21,7 @@ public class GroupHelper extends HelperBase {
         click(By.linkText("groups"));
     }
 
-    public void selectAndDeleteGroup() {
-        click(By.name("selected[]"));
+    public void deleteGroup() {
         click(By.name("delete"));
     }
 
@@ -47,5 +46,9 @@ public class GroupHelper extends HelperBase {
 
     public int getGroupCount() {
         return driver.findElements(By.name("selected[]")).size();
+    }
+
+    public void selectOneGroup(int index) {
+        driver.findElements(By.name("selected[]")).get(index).click();
     }
 }
