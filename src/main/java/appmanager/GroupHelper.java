@@ -37,11 +37,11 @@ public class GroupHelper extends HelperBase {
         click(By.name("update"));
     }
 
-    public void makeChangesToGroup() {
+    public void makeChangesToGroup(GroupData groupData) {
         click(By.name("group_header"));
-        type(By.name("group_header"), "testChangesIntoGroupHeader");
+        type(By.name("group_header"), groupData.getHeader());
         click(By.name("group_footer"));
-        type(By.name("group_footer"),"changes into footer");
+        type(By.name("group_footer"), groupData.getFooter());
     }
 
     public int getGroupCount() {
