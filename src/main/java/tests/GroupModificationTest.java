@@ -5,11 +5,13 @@ import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import java.util.List;
+
 public class GroupModificationTest extends TestBase {
 
     @Test
     public void testGroupModification(){
-        int before = app.getGroupHelper().getGroupCount();
+        List<GroupData> before = app.getGroupHelper().getGroupList();
         if (!app.getGroupHelper().isElementPresent(By.name("selected[]"))){
             app.getGroupHelper().selectGroups();
             app.getGroupHelper().clickNewGroupButton();
@@ -22,7 +24,7 @@ public class GroupModificationTest extends TestBase {
         app.getGroupHelper().groupNameTyping();
         app.getGroupHelper().makeChangesToGroup(new GroupData("testChangesIntoGroupHeader", "changes into footer"));
         app.getGroupHelper().updateGroupModification();
-        int after = app.getGroupHelper().getGroupCount();
-        Assert.assertEquals(after, before, 0.001);
+        List<GroupData> after = app.getGroupHelper().getGroupList();
+        Assert.assertEquals(after.size(), before.size(), 0.001);
     }
 }

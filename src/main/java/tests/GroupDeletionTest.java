@@ -1,8 +1,11 @@
 package tests;
 
+import appmanager.GroupData;
 import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+
+import java.util.List;
 
 public class GroupDeletionTest extends TestBase {
 
@@ -16,12 +19,12 @@ public class GroupDeletionTest extends TestBase {
             app.getNavigationHelper().goBackToTheGroupsPage();
         }
         app.getGroupHelper().selectGroups();
-        int before = app.getGroupHelper().getGroupCount();
-        app.getGroupHelper().selectOneGroup(before-1);
+        List<GroupData> before = app.getGroupHelper().getGroupList();
+        app.getGroupHelper().selectOneGroup(before.size()-1);
         app.getGroupHelper().deleteGroup();
         app.getNavigationHelper().goBackToTheGroupsPage();
-        int after = app.getGroupHelper().getGroupCount();
-        Assert.assertEquals(after, before-1,0.001);
+        List<GroupData> after = app.getGroupHelper().getGroupList();
+        Assert.assertEquals(after.size(), before.size()-1, 0.001);
     }
 
 }
